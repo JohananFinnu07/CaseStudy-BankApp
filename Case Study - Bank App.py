@@ -52,7 +52,6 @@ class BankApp:
     def print_transactions(self):
         return self.transactions
 
-# Main program
 BankApp_obj = BankApp()
 while True:
     choice = int(input('''Enter the value of the related service you want
